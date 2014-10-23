@@ -26,6 +26,7 @@ AppFabricDemo class makes getting data from the servers very simple and function
 demo.GetData("name", "AppFabric");
 ```
 First parameter is your unique Key and the second one is your Value. Value could be CLR objects, or any variable and your Binary data.
+
 For other overloaded method's parameters could be different.
 
 ###3.3.Adding data to your cache server
@@ -34,6 +35,7 @@ Another method is add data. We made this very simple and functional. 6 overloade
 demo.SetData("job", "developer");
 ```
 First parameter is your Key, required for adding data to the cache server. Second one is your Value. Key must be unique. You could not identify existing key name again.
+
 For other overloaded method's parameters could be different.
 
 ###3.4.Update existing data
@@ -42,6 +44,7 @@ For other overloaded method's parameters could be different.
 demo.PutData("job", "artist");
 ```
 First parameter is your unique Key and the second one is your new Value.
+
 For other overloaded method's parameters could be different.
 
 ###3.5.Remove data from the server
@@ -50,6 +53,7 @@ For other overloaded method's parameters could be different.
 demo.RemoveEntry("job");
 ```
 There is just one parameter, it is your unique Key.
+
 For other overloaded method's parameters could be different.
 
 ###3.6.GetObjects
@@ -58,6 +62,7 @@ This method provides you get all objects from the specific region. You can filte
 demo.GetObjects("user");
 ```
 Region Name is only needed parameter to get all objects.
+
 For other overloaded method's parameters could be different.
 
 ###3.7.ClearRegions
@@ -93,4 +98,5 @@ It is a method that you can create region in the cache server. 2 overloaded meth
 demo.CreateRegion("product");
 ```
 First parameter is Region Name which is required to entitle the region.
+
 For other overloaded method's parameters could be different.
