@@ -56,7 +56,7 @@ There is just one parameter, it is your unique Key.
 
 For other overloaded methods' parameters could be different.
 
-###3.6.GetObjects
+###3.6.Get all objects in the region (optional by tag)
 This method provides you get all objects from the specific region. You can filter this action with getting data by the tags. Here is a sample:
 ```c#
 demo.GetObjects("user");
@@ -65,14 +65,14 @@ Region Name is only needed parameter to get all objects.
 
 For other overloaded methods' parameters could be different.
 
-###3.7.ClearRegions
+###3.7.Clear existing regions data
 It clears all regions data. Check this usage sample:
 ```c#
 demo.ClearRegions();
 ```
 There is no any required parameter to use this method.
 
-###3.8.ClearRegion
+###3.8.Clear all data of specified existing region
 It removes all data from specified region. Here is a sample:
 ```c#
 demo.ClearRegion("account");
