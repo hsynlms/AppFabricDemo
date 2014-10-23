@@ -27,7 +27,7 @@ demo.GetData("name", "AppFabric");
 ```
 First parameter is your unique Key and the second one is your Value. Value could be CLR objects, or any variable and your Binary data.
 
-For other overloaded method's parameters could be different.
+For other overloaded methods' parameters could be different.
 
 ###3.3.Adding data to your cache server
 Another method is add data. We made this very simple and functional. 6 overloaded methods are ready in the class. No more code required, just call a method to do this action. Here is a sample:
@@ -36,7 +36,7 @@ demo.SetData("job", "developer");
 ```
 First parameter is your Key, required for adding data to the cache server. Second one is your Value. Key must be unique. You could not identify existing key name again.
 
-For other overloaded method's parameters could be different.
+For other overloaded methods' parameters could be different.
 
 ###3.4.Update existing data
 6 overloaded methods implemented for updating existing data. Select one of them to do this action. A sample is below:
@@ -45,7 +45,7 @@ demo.PutData("job", "artist");
 ```
 First parameter is your unique Key and the second one is your new Value.
 
-For other overloaded method's parameters could be different.
+For other overloaded methods' parameters could be different.
 
 ###3.5.Remove data from the server
 3 overlaoded methods are ready for use. Just pick one amoung them. Here is a sample:
@@ -54,7 +54,7 @@ demo.RemoveEntry("job");
 ```
 There is just one parameter, it is your unique Key.
 
-For other overloaded method's parameters could be different.
+For other overloaded methods' parameters could be different.
 
 ###3.6.GetObjects
 This method provides you get all objects from the specific region. You can filter this action with getting data by the tags. Here is a sample:
@@ -63,7 +63,7 @@ demo.GetObjects("user");
 ```
 Region Name is only needed parameter to get all objects.
 
-For other overloaded method's parameters could be different.
+For other overloaded methods' parameters could be different.
 
 ###3.7.ClearRegions
 It clears all regions data. Check this usage sample:
@@ -99,4 +99,4 @@ demo.CreateRegion("product");
 ```
 First parameter is Region Name which is required to entitle the region.
 
-For other overloaded method's parameters could be different.
+For other overloaded methods' parameters could be different.
